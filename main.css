@@ -1,0 +1,131 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+.navbar li a{
+    padding: 10px 15px;
+    /* margin: 0px 30px; */
+    text-decoration: none;
+    color: black;
+    font-weight: 580;
+    font-size: 14px;
+}
+.navbar li:hover a{
+    color: #ff6400;
+    border-bottom: 2px solid #ff6400;
+}
+.navbar img{
+    margin-right: 10px;
+    padding-left: 20px;
+}
+.midHeader h6{
+    margin-bottom: 0px;
+    padding: 5px;
+    color: white;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+    image-resolution: initial;
+}
+.title-section h2{
+    text-align: center;
+    padding: 20px;
+}
+.product img{
+    width: 100%;
+    height: 400px;
+}
+.midHeader h6{
+    font-size: 13px;
+}
+.product .name h6{
+    color: #5c5c5c;
+    padding: 10px 0px;
+    padding-left: 10px;
+}
+.bottomProduct .left h6{
+    font-size: 16px;
+    font-weight: 590;
+    padding-left: 10px;
+}
+.bottomProduct .right{
+    padding-left: 90px;
+    padding-bottom: 20px;
+
+}
+.bottomProduct .right i{
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 50%;
+}
+.bottomProduct .right :hover i{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.midHeader .row{
+    margin-left: 0;
+}
+.surrounded{
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.surrounded:hover .end{
+    background-color: rgb(226, 226, 226);
+    transition: all 1s;
+}
+.seeAll h6{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.seeAll{
+    background-color: black;
+    width: 10%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.seeAll:hover h6{
+    background-color: white;
+    color: black;
+    transition: all 1s;
+    border: 1px solid black;
+}
+.nearEnd{
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.nearEnd img{
+    width: 100%;
+    height: 270px;
+    border-top-left-radius: 40px ;
+    border-bottom-right-radius: 40px ;
+}
+.gallery{
+    margin-bottom: 30px;
+}
+.gallery h2{
+    text-align: center;
+    font-weight: 580;
+}
+.gallery img{
+    width: 100%;
+    cursor: pointer;
+    height: 250px;
+}
+footer {
+    background-color:rgb(213, 213, 213);
+    width: 100%;
+}
+
+footer p {
+    padding: 30px;
+    padding-top: 40px;
+    color: black;
+    margin-bottom: 0px;
+}
